@@ -1,5 +1,8 @@
+package com.sundogsoftware.spark
+
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.DataFrame
+
 
 
 object Prac_tst extends App{

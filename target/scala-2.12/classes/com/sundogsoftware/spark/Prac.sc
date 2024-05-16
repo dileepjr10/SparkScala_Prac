@@ -1,12 +1,12 @@
 // VALUES are immutable constants.
-val hello: String = "Hola!"
+
 
 // VARIABLES are mutable
-var helloThere: String = hello
-helloThere = hello + " There!"
+var helloThere: String = "hello"
+helloThere = "hello" + " There!"
 println(helloThere)
 
-val immutableHelloThere = hello + " There"
+val immutableHelloThere = "hello" + " There"
 println(immutableHelloThere)
 
 // Data Types
@@ -40,9 +40,9 @@ val isLesser = 1 < 2
 val impossible = isGreater & isLesser
 val anotherWay = isGreater || isLesser
 
-val picard: String = "Picard"
-val bestCaptain: String = "Picard"
-val isBest: Boolean = picard == bestCaptain
+//val picard: String = "Picard"
+//val bestCaptain: String = "Picard"
+//val isBest: Boolean = picard == bestCaptain
 
 // EXERCISE
 // Write some code that takes the value of pi, doubles it, and then prints it within a string with
